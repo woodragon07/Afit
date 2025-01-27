@@ -162,3 +162,5 @@ if __name__ == "__main__":
     result_message = ai_price_assistant(keyword, budget)
     print("=== AI 가격비서 추천 결과 ===")
     print(result_message)
+
+#히히
