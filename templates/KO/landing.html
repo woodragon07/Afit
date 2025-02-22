@@ -17,6 +17,10 @@
               class="text-gray-600 hover:text-pink-500 font-medium ml-4">
                저장된 북마크
               </a>
+              <a href="{{ url_for('recommendation_page.recommendations_page') }}" 
+              class="text-gray-600 hover:text-pink-500 font-medium ml-4">
+               추천
+              </a>
           {% else %}
               <a href="{{ url_for('auth.login') }}" class="text-gray-600 hover:text-pink-500 font-medium ml-4">로그인</a>
               <a href="{{ url_for('auth.signup') }}" class="text-gray-600 hover:text-pink-500 font-medium ml-4">회원가입</a>
